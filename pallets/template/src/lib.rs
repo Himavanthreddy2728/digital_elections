@@ -31,9 +31,9 @@ pub mod pallet {
     
     #[pallet::error]
     pub enum Error<T> {
-            /// Patient record Exists.
+            /// Candidate record Exists.
             CandidateAlreadyVoted,
-            /// The patient doesnot exist in the record, so cannot be verified.
+            /// The Candidate has not voted yet, Thus he/she cannot be verified.
             NotVoted,
         }
     
